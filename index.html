@@ -1,3 +1,9 @@
+<?php
+  $bg = array('01-SBC Rajdhani Route Diverted EMD.jpg', 'maxresdefault (3).jpg', 'maxresdefault (1).jpg', 'maru-sagar-express.jpg', 'Locomotive_of_Indian_Railways.jpg'); // array of filenames
+
+  $i = rand(0, count($bg)-1); // generate random number size of the array
+  $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
+?>
 <html>
   <head>
     <style type="text/css">
@@ -9,7 +15,7 @@ background: url(images/<?php echo $selectedBg; ?>) no-repeat;
 </style>
     <title>Kasukabe Defense Group</title>
   </head>
-  <body background="01-SBC Rajdhani Route Diverted EMD.jpg" bgcolor="blue" vlink="white" link="yellow">
+  <body bgcolor="blue" vlink="white" link="yellow">
 
     <center><h1><text color="red">Abhishek Adhikari</text></h1></center>
     <marquee><h3>
